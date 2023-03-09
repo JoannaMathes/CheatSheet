@@ -1,0 +1,148 @@
+ 
+ /* BELOW IS THE RESET CODE TO REMOVE ANY DEFAULTS THAT MIGHT
+  INTERFERE WITH MY STYLING */
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ /* THESE ARE THE FONT FACES FOR THE FONTS I'M BRINGING IN */
+
+ @font-face {
+    font-family: 'Caveat';
+    src: url(./Fonts/Caveat/static/Caveat-Regular.ttf) format('truetype');
+    font-weight: normal;
+ }
+ @font-face {
+    font-family: 'Caveat';
+    src: url('./Fonts/Caveat/static/Caveat-Medium.ttf') format('truetype');
+    font-weight: 500;
+ }
+ @font-face {
+    font-family: 'Caveat';
+    src: url(./Fonts/Caveat/static/Caveat-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+ }
+ @font-face {
+    font-family: 'Caveat';
+    src: url(./Fonts/Caveat/static/Caveat-Bold.ttf) format('truetype');
+    font-weight: 700;
+ }
+ @font-face {
+    font-family: 'Source Code Pro';
+    src: url(./Fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf) format('truetype');
+    font-style: none;
+ }
+ @font-face {
+    font-family: "Source Code Pro";
+    src: url('./Fonts/Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf') format('truetype');
+    font-style: italic;
+ }
+
+
+ /* HERE IS THE STYLING FOR THE MAIN PART OF THE WEBPAGE */
+
+ body {
+    text-align: center;
+    font-family: 'Caveat';
+    background-color: #fffff2
+ }
+ h1 {
+    font-weight: 700;
+    font-size: 60px;
+    padding: 20px 50px 10px;
+    margin-top: 30px;
+    color: rgb(64, 120, 153);
+ }
+ h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #de6449;
+ }
+ h3 {
+    font-size: 43px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+ }
+ p {
+    font-size: 20px;
+ }
+ hr {
+    border-top: 5px #41d3bd dotted;
+    border-radius: 5px;
+    width: 700px;
+ }
+ section {
+    padding-top: 30px;
+ }
+ table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(64, 120, 153);
+ }
+ table > thead > tr > td {
+    font-family: Caveat;
+    color: #de6449;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px;
+ }
+ table > tbody > tr > td:first-child{
+    font-family: 'Source Code Pro';
+    padding: 20px;
+    text-decoration: underline dotted #41d3bd 3px;
+ }
+ table > tbody > tr > td:last-child {
+    font-size: 22px;
+    padding: 8px;
+ }
+ table, thead, tbody, tr, td {
+    border: 3px rgb(64, 120, 153) solid;
+    border-radius: 15px;
+    border-collapse: separate !important;
+ }
+ td {
+    background-color: #fffff2;
+    
+ }
+ 
